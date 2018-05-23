@@ -1,0 +1,86 @@
+<!--
+  Generated template for the TutorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Tutor CAIRO</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content padding>
+<button ion-button outline (click)="goBackHomePage()">Balik Rumah</button>
+
+<div class="picture-holder">
+  <img class="circle-img" src="https:www.w3schools.com/howto/img_avatar.png" alt="Gambar CV">
+  <p>
+    System Engineer
+    <br> di Augmented Innovation
+  </p>
+</div>
+
+<ion-card>
+  <ion-card-header>
+    <h2>Maklumat Peribadi</h2>
+  </ion-card-header>
+  <ion-card-content>
+      <ion-grid>
+          <ion-row>
+              <ion-col col-4>Nama:</ion-col>
+              <ion-col col-8>Rafieq Roslan</ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col col-4>Akademi:</ion-col>
+              <ion-col col-8>BIT (Hons.) Intelligent Systems Engineering <br>Fakulti Sains Komputer dan Matematik, UiTM</ion-col>
+          </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+          <ion-row>
+              <ion-col col-12>
+                <button ion-button color="dark" outline (click)="OnGoToExperience()">
+                Pengalaman
+                </button>
+              </ion-col>  
+          </ion-row>
+          <ion-row>
+              <ion-col col-12>
+                <button ion-button color="success" outline (click)="OnGoToOurJob()">
+                Kerja
+                </button>
+              </ion-col>  
+          </ion-row>
+      </ion-grid>
+
+      <ion-grid>
+
+          <ion-row>
+              <ion-col col-4>
+                <a href="https://www.twitter.com/qeifar" target="blank">
+                    <img src="https://image.flaticon.com/icons/svg/185/185961.svg" alt=""/>
+                </a>
+              </ion-col>
+              <ion-col col-4>
+                <a href="https://www.facebook.com/qeifar" target="blank">
+                    <img src="https://image.flaticon.com/icons/svg/185/185981.svg" alt=""/>
+                </a>
+              </ion-col>
+              <ion-col col-4>
+                <a href="https://github.com/qeifar" target="blank">
+                    <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt=""/>
+                </a>
+              </ion-col>  
+          </ion-row>
+         
+      </ion-grid>
+
+
+  </ion-card-content>
+</ion-card>
+</ion-content>
